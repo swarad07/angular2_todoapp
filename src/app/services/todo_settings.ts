@@ -5,7 +5,7 @@ import {Injectable} from 'angular2/core';
 
 @Injectable()
 export class TodoSettings {
-    endpoint: string = 'http://dev-headless-training.pantheon.io';
+    endpoint: string = 'http://dev-headless-training.pantheonsite.io';
     username: string = 'dummy';
     password: string = 'dummy';
     format: string = 'application/json';
